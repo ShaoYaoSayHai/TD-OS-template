@@ -1,0 +1,1806 @@
+Dependencies for Project 'AT32F403AVGT7_BoardDemo', Target 'AT32F403AVGT7_BoardDemo': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (..\src\main.c)(0x6820CBF2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/main.o -MD)
+I (..\inc\at32f403a_407_wk_config.h)(0x681F6088)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+I (..\inc\wk_debug.h)(0x681F6088)
+I (..\inc\wk_usart.h)(0x681F6088)
+I (..\inc\wk_gpio.h)(0x681F6088)
+I (..\inc\wk_system.h)(0x681F6088)
+I (..\..\tdos\drivers\inc\drv_led.h)(0x68207201)
+I (..\..\tdos\kernel\inc\typedef.h)(0x68207DEE)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\tdos\drivers\inc\drv_usart.h)(0x6820C760)
+I (D:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\..\tdos\drivers\inc\drv_key.h)(0x68206EC5)
+I (..\..\tdos\kernel\inc\op_string.h)(0x681F6CFC)
+I (..\..\tdos\service\inc\sver_regis.h)(0x6820A371)
+I (..\..\tdos\service\inc\sver_mem.h)(0x6820C34D)
+I (..\..\tdos\service\inc\sver_comm.h)(0x6820C626)
+I (..\..\tdos\kernel\inc\static_list.h)(0x6820B07A)
+F (..\src\at32f403a_407_wk_config.c)(0x6820C8C6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_wk_config.o -MD)
+I (..\inc\at32f403a_407_wk_config.h)(0x681F6088)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\src\at32f403a_407_int.c)(0x6820C972)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_int.o -MD)
+I (..\inc\at32f403a_407_int.h)(0x681F6088)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+I (..\..\tdos\drivers\inc\drv_usart.h)(0x6820C760)
+I (..\inc\wk_usart.h)(0x681F6088)
+I (..\inc\at32f403a_407_wk_config.h)(0x681F6088)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (D:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (..\..\tdos\drivers\drivers_config.h)(0x68207A45)
+F (..\src\rtc.c)(0x681F6088)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/rtc.o -MD)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\src\wk_system.c)(0x681F6088)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/wk_system.o -MD)
+I (..\inc\wk_system.h)(0x681F6088)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\src\wk_debug.c)(0x681F6088)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/wk_debug.o -MD)
+I (..\inc\wk_debug.h)(0x681F6088)
+I (..\inc\at32f403a_407_wk_config.h)(0x681F6088)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\src\wk_usart.c)(0x6820C503)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/wk_usart.o -MD)
+I (..\inc\wk_usart.h)(0x681F6088)
+I (..\inc\at32f403a_407_wk_config.h)(0x681F6088)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\src\wk_gpio.c)(0x681F6088)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/wk_gpio.o -MD)
+I (..\inc\wk_gpio.h)(0x681F6088)
+I (..\inc\at32f403a_407_wk_config.h)(0x681F6088)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_acc.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_acc.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_adc.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_adc.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_bpr.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_bpr.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_can.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_can.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_crc.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_crc.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_crm.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_crm.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_dac.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_dac.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_debug.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_debug.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_dma.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_dma.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_emac.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_emac.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_exint.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_exint.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_flash.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_flash.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_gpio.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_gpio.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_i2c.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_i2c.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_misc.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_misc.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_pwc.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_pwc.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_rtc.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_rtc.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_sdio.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_sdio.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_spi.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_spi.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_tmr.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_tmr.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_usart.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_usart.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_usb.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_usb.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_wdt.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_wdt.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_wwdt.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_wwdt.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\libraries\drivers\src\at32f403a_407_xmc.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_xmc.o -MD)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (.\startup_at32f403a_407.s)(0x6820C9B3)(--cpu Cortex-M4.fp.sp -g-ID:\Arm\Packs\ArteryTek\AT32F403A_407_DFP\2.2.1\Device\Include--pd "__UVISION_VERSION SETA 536"--pd "AT32F403AVGT7 SETA 1"--list .\listings\startup_at32f403a_407.lst--xref -o .\objects\startup_at32f403a_407.o--depend .\objects\startup_at32f403a_407.d)
+F (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.c)(0x68150DB9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/system_at32f403a_407.o -MD)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+F (..\..\tdos\drivers\src\drv_key.c)(0x68207271)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/drv_key.o -MD)
+I (..\..\tdos\drivers\inc\drv_key.h)(0x68206EC5)
+I (..\..\tdos\kernel\inc\typedef.h)(0x68207DEE)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+I (..\inc\at32f403a_407_wk_config.h)(0x681F6088)
+I (..\inc\wk_system.h)(0x681F6088)
+I (..\..\tdos\drivers\inc\drv_usart.h)(0x6820C760)
+I (..\inc\wk_usart.h)(0x681F6088)
+I (D:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\..\tdos\drivers\inc\drv_led.h)(0x68207201)
+F (..\..\tdos\drivers\src\drv_led.c)(0x68208306)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/drv_led.o -MD)
+I (..\..\tdos\drivers\inc\drv_led.h)(0x68207201)
+I (..\..\tdos\kernel\inc\typedef.h)(0x68207DEE)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+I (..\inc\at32f403a_407_wk_config.h)(0x681F6088)
+I (..\inc\wk_system.h)(0x681F6088)
+F (..\..\tdos\drivers\src\drv_printf.c)(0x68207A5B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/drv_printf.o -MD)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x603507D4)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\tdos\drivers\drivers_config.h)(0x68207A45)
+I (..\..\tdos\drivers\inc\drv_usart.h)(0x6820C760)
+I (..\inc\wk_usart.h)(0x681F6088)
+I (..\inc\at32f403a_407_wk_config.h)(0x681F6088)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+F (..\..\tdos\drivers\src\drv_usart.c)(0x681C753F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/drv_usart.o -MD)
+I (..\..\tdos\drivers\inc\drv_usart.h)(0x6820C760)
+I (..\inc\wk_usart.h)(0x681F6088)
+I (..\inc\at32f403a_407_wk_config.h)(0x681F6088)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+I (D:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+F (..\..\tdos\drivers\src\drv_valve_check.c)(0x6820BE9F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/drv_valve_check.o -MD)
+I (..\..\tdos\drivers\inc\drv_valve_check.h)(0x681CE965)
+I (..\..\tdos\kernel\inc\typedef.h)(0x68207DEE)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+I (..\inc\at32f403a_407_wk_config.h)(0x681F6088)
+I (..\inc\wk_system.h)(0x681F6088)
+F (..\..\tdos\kernel\src\json.c)(0x681C7AA9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/json.o -MD)
+I (D:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\tdos\kernel\inc\json.h)(0x681C77E3)
+I (..\..\tdos\kernel\inc\typedef.h)(0x68207DEE)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+I (..\inc\at32f403a_407_wk_config.h)(0x681F6088)
+I (..\inc\wk_system.h)(0x681F6088)
+F (..\..\tdos\kernel\src\op_string.c)(0x6820AF19)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/op_string.o -MD)
+I (..\..\tdos\kernel\inc\op_string.h)(0x681F6CFC)
+I (..\..\tdos\kernel\inc\typedef.h)(0x68207DEE)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+I (..\inc\at32f403a_407_wk_config.h)(0x681F6088)
+I (..\inc\wk_system.h)(0x681F6088)
+F (..\..\tdos\kernel\src\static_list.c)(0x6820C092)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/static_list.o -MD)
+I (..\..\tdos\kernel\inc\static_list.h)(0x6820B07A)
+I (..\..\tdos\kernel\inc\typedef.h)(0x68207DEE)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+I (..\inc\at32f403a_407_wk_config.h)(0x681F6088)
+I (..\inc\wk_system.h)(0x681F6088)
+F (..\..\tdos\service\src\sver_regis.c)(0x6820A37D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/sver_regis.o -MD)
+I (..\..\tdos\service\inc\sver_regis.h)(0x6820A371)
+I (..\..\tdos\kernel\inc\typedef.h)(0x68207DEE)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+I (..\inc\at32f403a_407_wk_config.h)(0x681F6088)
+I (..\inc\wk_system.h)(0x681F6088)
+I (..\..\tdos\drivers\inc\drv_led.h)(0x68207201)
+F (..\..\tdos\service\src\sver_mem.c)(0x6820C35C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/sver_mem.o -MD)
+I (..\..\tdos\service\inc\sver_mem.h)(0x6820C34D)
+I (..\..\tdos\kernel\inc\typedef.h)(0x68207DEE)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+I (..\inc\at32f403a_407_wk_config.h)(0x681F6088)
+I (..\inc\wk_system.h)(0x681F6088)
+I (..\..\tdos\kernel\inc\static_list.h)(0x6820B07A)
+I (..\..\tdos\drivers\inc\drv_usart.h)(0x6820C760)
+I (..\inc\wk_usart.h)(0x681F6088)
+I (D:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+F (..\..\tdos\service\src\sver_comm.c)(0x6820CCCD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../tdos/drivers/inc -I ../../tdos/drivers -I ../../tdos/kernel/inc -I ../../tdos/service/inc-ID:/Arm/Packs/ArteryTek/AT32F403A_407_DFP/2.2.1/Device/Include-D__UVISION_VERSION="536" -DAT32F403AVGT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/sver_comm.o -MD)
+I (..\..\tdos\service\inc\sver_comm.h)(0x6820C626)
+I (..\..\tdos\kernel\inc\typedef.h)(0x68207DEE)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (D:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x68150DB9)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x68150DB9)
+I (..\inc\at32f403a_407_conf.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x68150DB9)
+I (..\inc\rtc.h)(0x681F6088)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x68150DB9)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x68150DB9)
+I (..\inc\at32f403a_407_wk_config.h)(0x681F6088)
+I (..\inc\wk_system.h)(0x681F6088)
+I (..\..\tdos\drivers\inc\drv_usart.h)(0x6820C760)
+I (..\inc\wk_usart.h)(0x681F6088)
+I (D:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
