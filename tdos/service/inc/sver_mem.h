@@ -7,4 +7,6 @@
 /* 获取当前内存大小的回调函数 */
 void free_mem_size_task(void) ; 
 
+void free_mem_size_server(void) ; 
+
 #endif

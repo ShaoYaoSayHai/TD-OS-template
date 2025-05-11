@@ -1,23 +1,14 @@
 
 #include "drv_led.h"
 
-/* 状态机枚举类型 */
-typedef enum
-{
-    LED_IDLE,     // 空闲状态
-    LED_DEBOUNCE, // 触发防抖检测
-    LED_BLINK_ON, // 闪烁亮阶段
-    LED_BLINK_OFF // 闪烁灭阶段
-} LedBlinkState;
+
 
 static LedBlinkState led_status = LED_IDLE; // 初始状态
 static uint16_t led_timer = 0;              // 时间基准计数器
 static uint8_t blink_count = 0;             // 闪烁次数计数器
 static BOOL is_blinking = FALSE;            // 防止重入标志
 
-#define DEBOUNCE_TIME 2   // 消抖时间20ms（2 * 10ms）
-#define BLINK_INTERVAL 50 // 闪烁间隔500ms（50 * 10ms）
-#define MAX_BLINKS 5      // 最大闪烁次数（可选限制）
+
 
 /**
  * @brief 配置GPIO
@@ -50,62 +41,64 @@ void led_set_state(BOOL is_on)
         gpio_bits_set(GPIOD, GPIO_PINS_15);
 }
 
+#if 0
 /* 触发LED闪烁（外部调用） */
-void start_led_blink(void)
-{
-    if (!is_blinking)
-    { // 防止重入
-        led_status = LED_DEBOUNCE;
-        led_timer = 0;
-    }
-}
+//void start_led_blink(void)
+//{
+//    if (!is_blinking)
+//    { // 防止重入
+//        led_status = LED_DEBOUNCE;
+//        led_timer = 0;
+//    }
+//}
 
 /* LED闪烁任务（每10ms调用一次） */
-void led_blink_task(void)
-{
-    switch (led_status)
-    {
-    case LED_IDLE:
-        // 默认状态无操作
-        break;
+//void led_blink_task(void)
+//{
+//    switch (led_status)
+//    {
+//    case LED_IDLE:
+//        // 默认状态无操作
+//        break;
 
-    case LED_DEBOUNCE:
-        if (++led_timer >= DEBOUNCE_TIME)
-        {
-            led_status = LED_BLINK_ON;
-            led_timer = 0;
-            blink_count = 0;
-            is_blinking = TRUE;
-            led_set_state(TRUE); // 首次点亮LED
-        }
-        break;
+//    case LED_DEBOUNCE:
+//        if (++led_timer >= DEBOUNCE_TIME)
+//        {
+//            led_status = LED_BLINK_ON;
+//            led_timer = 0;
+//            blink_count = 0;
+//            is_blinking = TRUE;
+//            led_set_state(TRUE); // 首次点亮LED
+//        }
+//        break;
 
-    case LED_BLINK_ON:
-        if (++led_timer >= BLINK_INTERVAL)
-        {
-            led_status = LED_BLINK_OFF;
-            led_timer = 0;
-            led_set_state(FALSE); // 熄灭LED
-            if (++blink_count >= MAX_BLINKS)
-            { // 可选次数限制
-                led_status = LED_IDLE;
-                is_blinking = FALSE;
-            }
-        }
-        break;
+//    case LED_BLINK_ON:
+//        if (++led_timer >= BLINK_INTERVAL)
+//        {
+//            led_status = LED_BLINK_OFF;
+//            led_timer = 0;
+//            led_set_state(FALSE); // 熄灭LED
+//            if (++blink_count >= MAX_BLINKS)
+//            { // 可选次数限制
+//                led_status = LED_IDLE;
+//                is_blinking = FALSE;
+//            }
+//        }
+//        break;
 
-    case LED_BLINK_OFF:
-        if (++led_timer >= BLINK_INTERVAL)
-        {
-            led_status = LED_BLINK_ON;
-            led_timer = 0;
-            led_set_state(TRUE); // 重新点亮LED
-        }
-        break;
+//    case LED_BLINK_OFF:
+//        if (++led_timer >= BLINK_INTERVAL)
+//        {
+//            led_status = LED_BLINK_ON;
+//            led_timer = 0;
+//            led_set_state(TRUE); // 重新点亮LED
+//        }
+//        break;
 
-    default:
-        led_status = LED_IDLE; // 容错处理
-        is_blinking = FALSE;
-        break;
-    }
-}
+//    default:
+//        led_status = LED_IDLE; // 容错处理
+//        is_blinking = FALSE;
+//        break;
+//    }
+//}
+#endif

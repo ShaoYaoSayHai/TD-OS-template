@@ -20,7 +20,7 @@ sver_regis_map server_register_mapper[1];
 // * 注册需要使用的服务
 void sver_register_init(void)
 {
-    server_register_mapper[0].regis_id = 0;
-    server_register_mapper[0].run = led_blink_task;
-    server_register_mapper[0].start = start_led_blink;
+//    server_register_mapper[0].regis_id = 0;
+//    server_register_mapper[0].run = led_blink_task;
+//    server_register_mapper[0].start = start_led_blink;
 }

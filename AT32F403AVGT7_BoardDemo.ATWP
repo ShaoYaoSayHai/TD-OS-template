@@ -43,6 +43,16 @@
             <ModeSub name="Time_Base" value="SysTick"/>
         </Mode>
     </SYSTEM>
+    <TMR7>
+        <Mode>
+            <ModeSub name="Activated" value="TRUE"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="DividerValue" value="2399"/>
+            <ParametersSub name="Period" value="999"/>
+            <ParametersSub name="PeriodBufferEnable" value="TRUE"/>
+        </Parameters>
+    </TMR7>
     <USART1>
         <Mode>
             <ModeSub name="Mode" value="Asynchronous"/>
@@ -59,6 +69,7 @@
         <I2C1_ERR_IRQHandler>0;0;0;0;0</I2C1_ERR_IRQHandler>
         <SPI1_IRQHandler>0;0;0;0;0</SPI1_IRQHandler>
         <USART1_IRQHandler>1;6;0;0;0</USART1_IRQHandler>
+        <TMR7_GLOBAL_IRQHandler>1;5;0;0;0</TMR7_GLOBAL_IRQHandler>
     </NVIC>
     <GPIO>
         <Signal SignalName="GPIO_Input" PinName="PC13">

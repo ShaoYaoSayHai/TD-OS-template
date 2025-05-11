@@ -36,7 +36,7 @@
   ..\..\libraries\drivers\inc\at32f403a_407_wwdt.h \
   ..\..\libraries\drivers\inc\at32f403a_407_xmc.h ..\inc\wk_debug.h \
   ..\inc\at32f403a_407_wk_config.h ..\inc\wk_i2c.h ..\inc\wk_spi.h \
-  ..\inc\wk_usart.h ..\inc\wk_gpio.h ..\inc\wk_system.h \
+  ..\inc\wk_tmr.h ..\inc\wk_usart.h ..\inc\wk_gpio.h ..\inc\wk_system.h \
   ..\..\tdos\drivers\inc\drv_led.h ..\..\tdos\kernel\inc\typedef.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
@@ -46,4 +46,5 @@
   ..\..\tdos\drivers\inc\drv_key.h ..\..\tdos\kernel\inc\op_string.h \
   ..\..\tdos\kernel\inc\typedef.h ..\..\tdos\service\inc\sver_regis.h \
   ..\..\tdos\service\inc\sver_mem.h ..\..\tdos\service\inc\sver_comm.h \
-  ..\..\tdos\kernel\inc\static_list.h
+  ..\..\tdos\kernel\inc\td_tick.h ..\..\tdos\kernel\inc\static_list.h \
+  ..\..\tdos\service\inc\sver.h

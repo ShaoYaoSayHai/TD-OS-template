@@ -13,18 +13,9 @@
 #include "drv_usart.h"
 #include "drv_led.h"
 
+extern void start_led_blink(void) ; 
+
 // * 用状态机显示按键短按长按检测
-// * 定义按键状态的枚举类型 ， 包括空闲、去抖动、释放、长按
-typedef enum
-{
-
-    IDLE,
-    DEBOUNCE,
-    PRESSED,
-    LONG_CHECK,
-
-} KeyState;
-
 // 初始化按键状态为空闲
 static KeyState key_status = IDLE;
 // 初始化计时器为0，用于记录时间（单位时间调用周期10ms）
@@ -67,6 +58,9 @@ void on_long_hold_func(void)
 {
     debug_printf("LONG TIME HOLD\r\n");
 
+    /**************************************
+     * 插入长按事件
+     *************************************/
     start_led_blink();
 }
 

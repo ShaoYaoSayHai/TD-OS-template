@@ -4,6 +4,17 @@
 
 #include "typedef.h"
 
+// * 定义按键状态的枚举类型 ， 包括空闲、去抖动、释放、长按
+typedef enum
+{
+
+    IDLE,
+    DEBOUNCE,
+    PRESSED,
+    LONG_CHECK,
+
+} KeyState;
+
 BOOL is_key_pressed(void);
 // * 初始化按键
 void drv_key_gpio_init(void);
@@ -21,5 +32,11 @@ void drv_key_gpio_init(void);
  * @interface 长按 on_long_hold_func
  */
 void check_key_task(void);
+
+// * 长时间按下函数
+void on_long_hold_func(void);
+
+// * 短时间按下函数
+void on_short_hold_func(void);
 
 #endif

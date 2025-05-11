@@ -3,6 +3,7 @@
         "typedef.h": "c",
         "at32f403a_407.h": "c",
         "wk_usart.h": "c",
-        "drivers_config.h": "c"
+        "drivers_config.h": "c",
+        "drv_key.h": "c"
     }
 }

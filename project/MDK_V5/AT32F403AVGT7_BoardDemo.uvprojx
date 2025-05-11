@@ -10,7 +10,7 @@
       <TargetName>AT32F403AVGT7_BoardDemo</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060960::V5.06 update 7 (build 960)::.\ARMCC</pCCUsed>
+      <pCCUsed>6160000::V6.16::ARMCLANG</pCCUsed>
       <uAC6>1</uAC6>
       <TargetOption>
         <TargetCommonOption>
@@ -418,11 +418,6 @@
               <FilePath>..\src\wk_gpio.c</FilePath>
             </File>
             <File>
-              <FileName>rtc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\rtc.c</FilePath>
-            </File>
-            <File>
               <FileName>wk_i2c.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\wk_i2c.c</FilePath>
@@ -431,6 +426,16 @@
               <FileName>wk_spi.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\wk_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>rtc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\rtc.c</FilePath>
+            </File>
+            <File>
+              <FileName>wk_tmr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\wk_tmr.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -627,6 +632,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\tdos\kernel\src\static_list.c</FilePath>
             </File>
+            <File>
+              <FileName>td_tick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\tdos\kernel\src\td_tick.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -646,6 +656,16 @@
               <FileName>sver_comm.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\tdos\service\src\sver_comm.c</FilePath>
+            </File>
+            <File>
+              <FileName>sver_key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\tdos\service\src\sver_key.c</FilePath>
+            </File>
+            <File>
+              <FileName>sver_led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\tdos\service\src\sver_led.c</FilePath>
             </File>
           </Files>
         </Group>
