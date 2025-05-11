@@ -18,6 +18,26 @@
             <ModeSub name="Debug interface" value="SWD"/>
         </Mode>
     </DEBUG>
+    <I2C1>
+        <Mode>
+            <ModeSub name="I2C" value="I2C"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="DualAddressMode" value="DISABLE"/>
+            <ParametersSub name="GeneralCallMode" value="FALSE"/>
+        </Parameters>
+    </I2C1>
+    <SPI1>
+        <Mode>
+            <ModeSub name="Mode" value="Full_Duplex_Master"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="TransmissionMode" value="SPI_TRANSMIT_FULL_DUPLEX"/>
+            <ParametersSub name="Mode" value="SPI_MODE_MASTER"/>
+            <ParametersSub name="FirstBit" value="SPI_FIRST_BIT_MSB"/>
+            <ParametersSub name="ClockFrequency" value="30000000"/>
+        </Parameters>
+    </SPI1>
     <SYSTEM>
         <Mode>
             <ModeSub name="Time_Base" value="SysTick"/>
@@ -35,10 +55,16 @@
         <SysTick_Handler>1;15;0;0;0</SysTick_Handler>
         <FLASH_IRQHandler>0;0;0;0;0</FLASH_IRQHandler>
         <CRM_IRQHandler>0;0;0;0;0</CRM_IRQHandler>
+        <I2C1_EVT_IRQHandler>0;0;0;0;0</I2C1_EVT_IRQHandler>
+        <I2C1_ERR_IRQHandler>0;0;0;0;0</I2C1_ERR_IRQHandler>
+        <SPI1_IRQHandler>0;0;0;0;0</SPI1_IRQHandler>
         <USART1_IRQHandler>1;6;0;0;0</USART1_IRQHandler>
     </NVIC>
     <GPIO>
         <Signal SignalName="GPIO_Input" PinName="PC13">
+            <Parameters name="GPIO_PullType_Set" value="GPIO_PULL_DOWN"/>
+        </Signal>
+        <Signal SignalName="GPIO_Input" PinName="PA0">
             <Parameters name="GPIO_PullType_Set" value="GPIO_PULL_DOWN"/>
         </Signal>
     </GPIO>
@@ -66,11 +92,18 @@
         <PinSub pinname="HEXT_IN" signalname="CRM_HEXT_IN" signaltype="2"/>
         <PinSub pinname="HEXT_OUT" signalname="CRM_HEXT_OUT" signaltype="2"/>
         <PinSub pinname="PA0" signalname="GPIO_Input" signaltype="3"/>
+        <PinSub pinname="PA5" signalname="SPI1_SCK" signaltype="2"/>
+        <PinSub pinname="PA6" signalname="SPI1_MISO" signaltype="2"/>
+        <PinSub pinname="PA7" signalname="SPI1_MOSI" signaltype="2"/>
         <PinSub pinname="PD13" signalname="GPIO_Output" signaltype="3"/>
+        <PinSub pinname="PD14" signalname="GPIO_Output" signaltype="3"/>
+        <PinSub pinname="PD15" signalname="GPIO_Output" signaltype="3"/>
         <PinSub pinname="PA9" signalname="USART1_TX" signaltype="2"/>
         <PinSub pinname="PA10" signalname="USART1_RX" signaltype="2"/>
         <PinSub pinname="PA13" signalname="DEBUG_JTMS_SWDIO" signaltype="2"/>
         <PinSub pinname="PA14" signalname="DEBUG_JTCK_SWCLK" signaltype="2"/>
+        <PinSub pinname="PB6" signalname="I2C1_SCL" signaltype="2"/>
+        <PinSub pinname="PB7" signalname="I2C1_SDA" signaltype="2"/>
     </PINInfo>
     <ProjectInfomation>
         <ProjectName>AT32F403AVGT7_BoardDemo</ProjectName>
@@ -81,8 +114,8 @@
         <NotUsedPinAnalog>false</NotUsedPinAnalog>
         <CodeSplitIP>true</CodeSplitIP>
         <AddNecessaryFileFlag>false</AddNecessaryFileFlag>
-        <MinHeapSize>0x200</MinHeapSize>
-        <MinStackSize>0x400</MinStackSize>
+        <MinHeapSize>0x800</MinHeapSize>
+        <MinStackSize>0x1000</MinStackSize>
         <UseFirmware>true</UseFirmware>
         <PackageVersion>V2.2.0</PackageVersion>
     </ProjectInfomation>

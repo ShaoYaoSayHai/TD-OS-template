@@ -35,9 +35,9 @@
   ..\..\libraries\drivers\inc\at32f403a_407_wdt.h \
   ..\..\libraries\drivers\inc\at32f403a_407_wwdt.h \
   ..\..\libraries\drivers\inc\at32f403a_407_xmc.h ..\inc\wk_debug.h \
-  ..\inc\at32f403a_407_wk_config.h ..\inc\wk_usart.h ..\inc\wk_gpio.h \
-  ..\inc\wk_system.h ..\..\tdos\drivers\inc\drv_led.h \
-  ..\..\tdos\kernel\inc\typedef.h \
+  ..\inc\at32f403a_407_wk_config.h ..\inc\wk_i2c.h ..\inc\wk_spi.h \
+  ..\inc\wk_usart.h ..\inc\wk_gpio.h ..\inc\wk_system.h \
+  ..\..\tdos\drivers\inc\drv_led.h ..\..\tdos\kernel\inc\typedef.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\assert.h \

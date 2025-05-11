@@ -70,173 +70,174 @@ extern usart_recv_type_t usart_debug_recv_info; // 接收数据句柄
 /* add user code end external variables */
 
 /**
- * @brief  this function handles nmi exception.
- * @param  none
- * @retval none
- */
+  * @brief  this function handles nmi exception.
+  * @param  none
+  * @retval none
+  */
 void NMI_Handler(void)
 {
-    /* add user code begin NonMaskableInt_IRQ 0 */
+  /* add user code begin NonMaskableInt_IRQ 0 */
 
     /* add user code end NonMaskableInt_IRQ 0 */
 
-    /* add user code begin NonMaskableInt_IRQ 1 */
+  /* add user code begin NonMaskableInt_IRQ 1 */
 
     /* add user code end NonMaskableInt_IRQ 1 */
 }
 
 /**
- * @brief  this function handles hard fault exception.
- * @param  none
- * @retval none
- */
+  * @brief  this function handles hard fault exception.
+  * @param  none
+  * @retval none
+  */
 void HardFault_Handler(void)
 {
-    /* add user code begin HardFault_IRQ 0 */
+  /* add user code begin HardFault_IRQ 0 */
 
     /* add user code end HardFault_IRQ 0 */
-    /* go to infinite loop when hard fault exception occurs */
-    while (1)
-    {
-        /* add user code begin W1_HardFault_IRQ 0 */
+  /* go to infinite loop when hard fault exception occurs */
+  while (1)
+  {
+    /* add user code begin W1_HardFault_IRQ 0 */
 
         /* add user code end W1_HardFault_IRQ 0 */
-    }
+  }
 }
 
 /**
- * @brief  this function handles memory manage exception.
- * @param  none
- * @retval none
- */
+  * @brief  this function handles memory manage exception.
+  * @param  none
+  * @retval none
+  */
 void MemManage_Handler(void)
 {
-    /* add user code begin MemoryManagement_IRQ 0 */
+  /* add user code begin MemoryManagement_IRQ 0 */
 
     /* add user code end MemoryManagement_IRQ 0 */
-    /* go to infinite loop when memory manage exception occurs */
-    while (1)
-    {
-        /* add user code begin W1_MemoryManagement_IRQ 0 */
+  /* go to infinite loop when memory manage exception occurs */
+  while (1)
+  {
+    /* add user code begin W1_MemoryManagement_IRQ 0 */
 
         /* add user code end W1_MemoryManagement_IRQ 0 */
-    }
+  }
 }
 
 /**
- * @brief  this function handles bus fault exception.
- * @param  none
- * @retval none
- */
+  * @brief  this function handles bus fault exception.
+  * @param  none
+  * @retval none
+  */
 void BusFault_Handler(void)
 {
-    /* add user code begin BusFault_IRQ 0 */
+  /* add user code begin BusFault_IRQ 0 */
 
     /* add user code end BusFault_IRQ 0 */
-    /* go to infinite loop when bus fault exception occurs */
-    while (1)
-    {
-        /* add user code begin W1_BusFault_IRQ 0 */
+  /* go to infinite loop when bus fault exception occurs */
+  while (1)
+  {
+    /* add user code begin W1_BusFault_IRQ 0 */
 
         /* add user code end W1_BusFault_IRQ 0 */
-    }
+  }
 }
 
 /**
- * @brief  this function handles usage fault exception.
- * @param  none
- * @retval none
- */
+  * @brief  this function handles usage fault exception.
+  * @param  none
+  * @retval none
+  */
 void UsageFault_Handler(void)
 {
-    /* add user code begin UsageFault_IRQ 0 */
+  /* add user code begin UsageFault_IRQ 0 */
 
     /* add user code end UsageFault_IRQ 0 */
-    /* go to infinite loop when usage fault exception occurs */
-    while (1)
-    {
-        /* add user code begin W1_UsageFault_IRQ 0 */
+  /* go to infinite loop when usage fault exception occurs */
+  while (1)
+  {
+    /* add user code begin W1_UsageFault_IRQ 0 */
 
         /* add user code end W1_UsageFault_IRQ 0 */
-    }
+  }
 }
 
 /**
- * @brief  this function handles svcall exception.
- * @param  none
- * @retval none
- */
+  * @brief  this function handles svcall exception.
+  * @param  none
+  * @retval none
+  */
 void SVC_Handler(void)
 {
-    /* add user code begin SVCall_IRQ 0 */
+  /* add user code begin SVCall_IRQ 0 */
 
     /* add user code end SVCall_IRQ 0 */
-    /* add user code begin SVCall_IRQ 1 */
+  /* add user code begin SVCall_IRQ 1 */
 
     /* add user code end SVCall_IRQ 1 */
 }
 
 /**
- * @brief  this function handles debug monitor exception.
- * @param  none
- * @retval none
- */
+  * @brief  this function handles debug monitor exception.
+  * @param  none
+  * @retval none
+  */
 void DebugMon_Handler(void)
 {
-    /* add user code begin DebugMonitor_IRQ 0 */
+  /* add user code begin DebugMonitor_IRQ 0 */
 
     /* add user code end DebugMonitor_IRQ 0 */
-    /* add user code begin DebugMonitor_IRQ 1 */
+  /* add user code begin DebugMonitor_IRQ 1 */
 
     /* add user code end DebugMonitor_IRQ 1 */
 }
 
 /**
- * @brief  this function handles pendsv_handler exception.
- * @param  none
- * @retval none
- */
+  * @brief  this function handles pendsv_handler exception.
+  * @param  none
+  * @retval none
+  */
 void PendSV_Handler(void)
 {
-    /* add user code begin PendSV_IRQ 0 */
+  /* add user code begin PendSV_IRQ 0 */
 
     /* add user code end PendSV_IRQ 0 */
-    /* add user code begin PendSV_IRQ 1 */
+  /* add user code begin PendSV_IRQ 1 */
 
     /* add user code end PendSV_IRQ 1 */
 }
 
 /**
- * @brief  this function handles systick handler.
- * @param  none
- * @retval none
- */
+  * @brief  this function handles systick handler.
+  * @param  none
+  * @retval none
+  */
 void SysTick_Handler(void)
 {
-    /* add user code begin SysTick_IRQ 0 */
+  /* add user code begin SysTick_IRQ 0 */
 
     /* add user code end SysTick_IRQ 0 */
 
-    /* add user code begin SysTick_IRQ 1 */
+
+  /* add user code begin SysTick_IRQ 1 */
 
     /* add user code end SysTick_IRQ 1 */
 }
 
 /**
- * @brief  this function handles USART1 handler.
- * @param  none
- * @retval none
- */
+  * @brief  this function handles USART1 handler.
+  * @param  none
+  * @retval none
+  */
 void USART1_IRQHandler(void)
 {
-    /* add user code begin USART1_IRQ 0 */
+  /* add user code begin USART1_IRQ 0 */
     if (usart_flag_get(DEBUG_USART, USART_RDBF_FLAG) != RESET)
     {
         usart_debug_recv_info.buffer[usart_debug_recv_info.size++] = usart_data_receive(DEBUG_USART);
         usart_flag_clear(DEBUG_USART, USART_RDBF_FLAG);
     }
     /* add user code end USART1_IRQ 0 */
-    /* add user code begin USART1_IRQ 1 */
+  /* add user code begin USART1_IRQ 1 */
     if (usart_flag_get(DEBUG_USART, USART_IDLEF_FLAG) != RESET)
     {
         usart_flag_clear(DEBUG_USART, USART_IDLEF_FLAG);

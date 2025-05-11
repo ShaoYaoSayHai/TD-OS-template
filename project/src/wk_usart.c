@@ -32,10 +32,10 @@
 /* add user code end 0 */
 
 /**
- * @brief  init usart1 function
- * @param  none
- * @retval none
- */
+  * @brief  init usart1 function
+  * @param  none
+  * @retval none
+  */
 void wk_usart1_init(void)
 {
   /* add user code begin usart1_init 0 */
@@ -59,7 +59,7 @@ void wk_usart1_init(void)
 
   /* configure the RX pin */
   gpio_init_struct.gpio_drive_strength = GPIO_DRIVE_STRENGTH_MODERATE;
-  gpio_init_struct.gpio_out_type = GPIO_OUTPUT_PUSH_PULL;
+  gpio_init_struct.gpio_out_type  = GPIO_OUTPUT_PUSH_PULL;
   gpio_init_struct.gpio_mode = GPIO_MODE_INPUT;
   gpio_init_struct.gpio_pins = GPIO_PINS_10;
   gpio_init_struct.gpio_pull = GPIO_PULL_NONE;

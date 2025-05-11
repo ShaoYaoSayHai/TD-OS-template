@@ -27,6 +27,8 @@
 /* Includes ------------------------------------------------------------------*/
 #include "at32f403a_407_wk_config.h"
 #include "wk_debug.h"
+#include "wk_i2c.h"
+#include "wk_spi.h"
 #include "wk_usart.h"
 #include "wk_gpio.h"
 #include "wk_system.h"
@@ -77,38 +79,44 @@
 /* add user code end 0 */
 
 /**
- * @brief main function.
- * @param  none
- * @retval none
- */
+  * @brief main function.
+  * @param  none
+  * @retval none
+  */
 int main(void)
 {
-    /* add user code begin 1 */
+  /* add user code begin 1 */
 
     /* add user code end 1 */
 
-    /* system clock config. */
-    wk_system_clock_config();
+  /* system clock config. */
+  wk_system_clock_config();
 
-    /* config periph clock. */
-    wk_periph_clock_config();
+  /* config periph clock. */
+  wk_periph_clock_config();
 
-    /* init debug function. */
-    wk_debug_config();
+  /* init debug function. */
+  wk_debug_config();
 
-    /* nvic config. */
-    wk_nvic_config();
+  /* nvic config. */
+  wk_nvic_config();
 
-    /* timebase config. */
-    wk_timebase_init();
+  /* timebase config. */
+  wk_timebase_init();
 
-    /* init usart1 function. */
-    wk_usart1_init();
+  /* init usart1 function. */
+  wk_usart1_init();
 
-    /* init gpio function. */
-    wk_gpio_config();
+  /* init spi1 function. */
+  wk_spi1_init();
 
-    /* add user code begin 2 */
+  /* init i2c1 function. */
+  wk_i2c1_init();
+
+  /* init gpio function. */
+  wk_gpio_config();
+
+  /* add user code begin 2 */
     drv_led_init();
     drv_key_gpio_init();
     // * 默认拉高电平
@@ -127,9 +135,9 @@ int main(void)
 
     /* add user code end 2 */
 
-    while (1)
-    {
-        /* add user code begin 3 */
+  while(1)
+  {
+    /* add user code begin 3 */
 
         // check_key_task();
         // led_blink_task();
@@ -139,9 +147,9 @@ int main(void)
         wk_delay_ms(10);
 
         /* add user code end 3 */
-    }
+  }
 }
 
-/* add user code begin 4 */
+  /* add user code begin 4 */
 
 /* add user code end 4 */
