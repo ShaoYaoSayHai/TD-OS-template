@@ -44,4 +44,4 @@
   ..\..\tdos\drivers\inc\drv_usart.h ..\inc\wk_usart.h \
   ..\inc\at32f403a_407_wk_config.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
-  ..\..\tdos\kernel\inc\td_tick.h
+  ..\..\tdos\kernel\inc\td_tick.h ..\..\tdos\kernel\inc\td_delay.h

@@ -65,7 +65,7 @@ void wk_tmr7_init(void)
    */
 
   /* add user code begin tmr7_init 2 */
-
+  
   /* add user code end tmr7_init 2 */
 }
 

@@ -44,4 +44,5 @@
   ..\..\tdos\kernel\inc\typedef.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\assert.h \
-  ..\inc\at32f403a_407_wk_config.h ..\inc\wk_system.h
+  ..\inc\at32f403a_407_wk_config.h ..\inc\wk_system.h \
+  ..\..\tdos\kernel\inc\td_delay.h

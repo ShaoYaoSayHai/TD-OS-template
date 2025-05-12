@@ -33,6 +33,7 @@
 #include "drv_usart.h"
 #include "drivers_config.h"
 #include "td_tick.h"
+#include "td_delay.h"
 /* add user code end private includes */
 
 /* private typedef -----------------------------------------------------------*/
@@ -272,7 +273,7 @@ void TMR7_GLOBAL_IRQHandler(void)
     if (tmr_flag_get(TMR7, TMR_OVF_FLAG) != RESET)
     {
         td_rt_tick.update_tick();
-        tmr_flag_clear( TMR7 , TMR_OVF_FLAG );
+        tmr_flag_clear(TMR7, TMR_OVF_FLAG);
     }
 
     /* add user code end TMR7_GLOBAL_IRQ 0 */
@@ -283,5 +284,21 @@ void TMR7_GLOBAL_IRQHandler(void)
 }
 
 /* add user code begin 1 */
-
+/**
+ * @brief  this function handles TMR7 handler.
+ * @param  none
+ * @retval none
+ */
+void TMR6_GLOBAL_IRQHandler(void)
+{
+    /*************************************************
+     * 时间基准定时器 提供1ms的tick
+     *************************************************/
+    if (tmr_flag_get(TMR6, TMR_OVF_FLAG) != RESET)
+    {
+        // * 添加更新时间片代码
+        delay_tick_update(); // 更新延迟
+        tmr_flag_clear(TMR6, TMR_OVF_FLAG);
+    }
+}
 /* add user code end 1 */

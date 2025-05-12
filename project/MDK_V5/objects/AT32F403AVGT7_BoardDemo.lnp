@@ -1,4 +1,4 @@
---cpu=Cortex-M4.fp.sp
+--cpu=Cortex-M4.fp
 ".\objects\main.o"
 ".\objects\at32f403a_407_wk_config.o"
 ".\objects\at32f403a_407_int.o"
@@ -46,6 +46,7 @@
 ".\objects\op_string.o"
 ".\objects\static_list.o"
 ".\objects\td_tick.o"
+".\objects\td_delay.o"
 ".\objects\sver_regis.o"
 ".\objects\sver_mem.o"
 ".\objects\sver_comm.o"

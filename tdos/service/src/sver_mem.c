@@ -4,6 +4,7 @@
 #include "drv_usart.h"
 
 #include "td_tick.h"
+#include "td_delay.h"
 
 #define TRIGGER_INTERVAL (100) // 1000ms = 100 * 10ms
 
@@ -83,8 +84,8 @@ void free_mem_size_server(void)
         /* 计数完成 执行获取内存大小 */
         uint32_t mem_size = get_free_count();
         debug_printf("mem size : %d\n", mem_size);
-        uint32_t tick = td_rt_tick.get_tick();
-        debug_printf("tick : %ul\n", tick);
+        long tick = delay_tick_get();
+        debug_printf("tick : %d\n", tick);
         break;
     default:
         sver_mem_ctx.enter_cnt = tick;

@@ -46,6 +46,7 @@
 #include "sver_mem.h"
 #include "sver_comm.h"
 #include "td_tick.h"
+#include "td_delay.h"
 #include "static_list.h"
 #include "sver.h"
 
@@ -143,6 +144,8 @@ int main(void)
      * 启动时间基准定时器
      ************************************************/
     td_timer_tick_init();
+    // 延迟函数基准
+    td_delay_timer_init();
 
     /* add user code end 2 */
 
