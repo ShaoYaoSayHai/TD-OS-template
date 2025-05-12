@@ -91,4 +91,12 @@ uint32_t get_free_count(void);
  */
 void task_list_run(void);
 
+// 遍历静态链表，根据task_id查找函数指针
+/************************************
+ * @brief  根据输入的任务id返回对应的函数指针
+ * @date   2025年5月12日
+ * @author ZhangHW
+ ************************************/
+void (*find_task_run(uint8_t target_id))(void) ; 
+
 #endif

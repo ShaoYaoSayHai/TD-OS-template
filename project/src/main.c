@@ -137,6 +137,7 @@ int main(void)
     task_insert_head(2, check_key_server);
     task_insert_head(3, free_mem_size_server);
     task_insert_head(4, debug_comm_task);
+    task_insert_tail(6, led_red_blink_server);
 
     print_START();
 
@@ -145,7 +146,7 @@ int main(void)
      ************************************************/
     td_timer_tick_init();
     // 延迟函数基准
-    td_delay_timer_init();
+    // td_delay_timer_init();
 
     /* add user code end 2 */
 
@@ -153,9 +154,6 @@ int main(void)
     {
         /* add user code begin 3 */
 
-        // check_key_task();
-        // led_blink_task();
-        // server_register_mapper[0].run();
         task_list_run();
 
         // wk_delay_ms(10);

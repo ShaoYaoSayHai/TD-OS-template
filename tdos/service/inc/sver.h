@@ -11,4 +11,6 @@ void check_key_server(void);
  */
 void led_blink_task(void) ; 
 
+// 红灯闪烁
+void led_red_blink_server(void) ; 
 #endif

@@ -80,3 +80,50 @@ void led_blink_task(void)
         break;
     }
 }
+
+// * 红灯闪烁任务
+static LedContext led_red_ctx = {LED_IDLE, 0, 0, FALSE};
+
+void led_red_blink_server(void)
+{
+    const uint32_t tick = td_rt_tick.get_tick();
+    uint32_t elapsed;
+
+    switch (led_red_ctx.status)
+    {
+    case LED_IDLE:
+        led_red_ctx.enter_time = tick; // 进入时间
+        led_red_ctx.status = LED_DEBOUNCE;
+        break;
+    case LED_DEBOUNCE:
+        elapsed = TIME_DIFF(tick, led_red_ctx.enter_time);
+        if (elapsed >= 50)
+        { // * 500ms 执行一次
+            led_red_ctx.status = LED_BLINK_ON;
+            led_red_ctx.enter_time = tick; // 时间覆盖
+            gpio_bits_reset(GPIOD, GPIO_PINS_13);
+        }
+        break;
+    case LED_BLINK_ON:
+        elapsed = TIME_DIFF(tick, led_red_ctx.enter_time);
+        if (elapsed >= 50)
+        { // 500 ms执行一次
+            led_red_ctx.status = LED_BLINK_OFF;
+            led_red_ctx.enter_time = tick; // 时间覆盖
+            gpio_bits_set(GPIOD, GPIO_PINS_13);
+        }
+        break;
+    case LED_BLINK_OFF:
+        elapsed = TIME_DIFF(tick, led_red_ctx.enter_time);
+        if (elapsed >= 2)
+        {
+            led_red_ctx.status = LED_IDLE;
+            led_red_ctx.enter_time = tick; // 时间覆盖
+        }
+        break;
+    default:
+        led_red_ctx.status = LED_IDLE;
+        led_red_ctx.enter_time = tick; // 时间覆盖
+        break;
+    }
+}

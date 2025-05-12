@@ -40,4 +40,4 @@
   ..\..\libraries\drivers\inc\at32f403a_407_wwdt.h \
   ..\..\libraries\drivers\inc\at32f403a_407_xmc.h \
   ..\inc\at32f403a_407_wk_config.h ..\inc\wk_system.h ..\inc\wk_tmr.h \
-  ..\inc\at32f403a_407_wk_config.h
+  ..\inc\at32f403a_407_wk_config.h ..\..\tdos\kernel\inc\td_tick.h

@@ -249,3 +249,36 @@ void task_list_run(void)
         current = task_pool[current].next;
     }
 }
+
+// 遍历静态链表，根据task_id查找函数指针
+/************************************
+ * @brief  根据输入的任务id返回对应的函数指针
+ * @date   2025年5月12日
+ * @author ZhangHW
+ ************************************/
+void (*find_task_run(uint8_t target_id))(void)
+{
+    int8_t current_idx = 0; // 假设链表头节点在task_pool[0]
+
+    while (current_idx != -1)
+    {
+        StaticListNode *node = &task_pool[current_idx];
+
+        // 魔数校验（防内存错误）
+        if (node->magic != 0xAA55)
+        {
+            // debug_printf("Magic校验失败 @节点%d", current_idx);
+            return NULL;
+        }
+
+        // ID匹配检查
+        if (node->task_id == target_id)
+        {
+            return node->task_run;
+        }
+
+        current_idx = node->next; // 跳转下一节点
+    }
+
+    return NULL; // 未找到
+}

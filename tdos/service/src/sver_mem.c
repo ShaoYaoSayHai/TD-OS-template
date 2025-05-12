@@ -84,8 +84,8 @@ void free_mem_size_server(void)
         /* 计数完成 执行获取内存大小 */
         uint32_t mem_size = get_free_count();
         debug_printf("mem size : %d\n", mem_size);
-        long tick = delay_tick_get();
-        debug_printf("tick : %d\n", tick);
+        // long tick = delay_tick_get();
+        // debug_printf("tick : %d\n", tick);
         break;
     default:
         sver_mem_ctx.enter_cnt = tick;

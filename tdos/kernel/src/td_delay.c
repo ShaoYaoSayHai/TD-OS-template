@@ -11,6 +11,7 @@
 
 #include "td_delay.h"
 #include "wk_tmr.h"
+#include "td_tick.h"
 
 // * 全局变量
 volatile long g_sys_tick = 0;
